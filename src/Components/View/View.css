@@ -5,10 +5,18 @@
 .viewParentDiv .imageShowDiv {
   padding: 16px;
   width: 70vw;
+  display: flex;
+  justify-content: center;
 }
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
-  height: 85vh;
+  
+      height: 500px;
+      transition-duration: .5s;
+}
+.viewParentDiv .imageShowDiv img:hover{
+  filter: brightness(1.2);
+  transform: scale(1.2);
+  transition-duration: .5s;
 }
 
 .viewParentDiv .rightSection {
@@ -47,4 +55,7 @@
   color: #002f34;
   font-weight: 400;
   padding: 0;
+}
+.hide{
+  display:none;
 }

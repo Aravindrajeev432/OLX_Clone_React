@@ -25,6 +25,7 @@
 .bannerChildDiv .banner {
   position: relative;
   width: 100vw;
+  pointer-events: none;
 }
 .bannerChildDiv .banner img{
   width: 100vw;
